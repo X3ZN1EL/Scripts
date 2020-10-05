@@ -19,6 +19,6 @@ def encryp_pdf(file,password):
     print(f"encrypted_{file} Created ...")
 
 if __name__ == "__main__":
-    file = "pdf_file_name.pdf"
+    file = "file_name.pdf"
     password = "password"
     encryp_pdf(file,password)
