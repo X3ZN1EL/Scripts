@@ -16,9 +16,9 @@ def encryp_pdf(file,password):
         parser.write(f)
         f.close()
 
-    print(f"encrypted_{file} Created ...")
+    print(f"[+]Encriptando {file} \n[+]Done!")
 
 if __name__ == "__main__":
-    file = "file_name.pdf"
-    password = "password"
+    file = "please_dont_share.pdf"
+    password = "$3cureP4$$w0rD"
     encryp_pdf(file,password)
